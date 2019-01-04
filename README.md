@@ -1,5 +1,8 @@
-# simple_dash_postgres_redis_app
-Simple dash postgres redis app
+# Simple Dash Postgres Redis web app
+
++ Dash framework  
++ PostgreSQL database  
++ Redis  
 
 ![Logo](https://github.com/nicolasfguillaume/simple_dash_postgres_redis_app/blob/master/Screen%20Shot%202019-01-04%20at%2017.41.51.png)
 
