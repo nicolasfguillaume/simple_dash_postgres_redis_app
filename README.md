@@ -1,6 +1,8 @@
 # simple_dash_postgres_redis_app
 Simple dash postgres redis app
 
+![Logo](https://github.com/nicolasfguillaume/simple_dash_postgres_redis_app/blob/master/Screen%20Shot%202019-01-04%20at%2017.41.51.png)
+
 Usage:
 ```
 pyenv virtualenv 3.6.3 dash_postgres_3.6.3
