@@ -1,0 +1,25 @@
+version: '2'
+
+# usage:
+# pyenv virtualenv 3.6.3 dash_postgres_3.6.3
+# pyenv local dash_postgres_3.6.3
+# pip install -r requirements.txt
+# docker-compose up -d
+# python run_worker.py
+# python run_app.py
+
+services:
+
+  redis:
+    image: redis:3.2.11
+    restart: always
+    ports:
+      - 6389:6379  # was 6382:6379
+
+  db:
+    image: postgres:10
+    restart: always
+    ports:
+      - 5400:5432
+    environment:
+      POSTGRES_PASSWORD: example
